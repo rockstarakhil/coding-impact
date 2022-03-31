@@ -188,6 +188,7 @@ EMAIL_HOST_PASSWORD = '6281391783aA*'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
